@@ -1,0 +1,22 @@
+﻿Команди консолі:
+ 1. cd d:			- зміна диска
+ 2. cd ./[nameDir]		- зайти в папку
+ 3. touch readme.txt		- створити файл
+ 
+ 
+Команди Git:
+ 1. git init			- добавити репозиторій
+ 2. git status			- статус
+ 3. git add [nameFile]		- добавити файл, щоб його відслідковував Git
+ 4. git commit -a -m"text"	- зберегти зміни в репозиторій
+ 5. git log			- історія змін
+ 6. git diff			- відображає зміни
+ 7. git remote add origin [path]- вказівка на віддалений репозиторій
+ 8. git push -u origin master	- відправити на віддалений репозиторій
+ 9. git clone [path]		- скопіювати репозиторій в активну папку (git clone [source] [dest])
+ 10.git pull			- скачать останню версію
+ 
+ Alias
+ 1. git config --global alias.hist 'log --pretty=format:"%h %ad | %s%d [%an]" --graph --date=short'
+
+Довідкова інформація на http://www.youtube.com/watch?v=eVDsZhfdvFA
