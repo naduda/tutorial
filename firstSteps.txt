@@ -15,7 +15,7 @@
  8. git push -u origin master	- відправити на віддалений репозиторій
  9. git clone [path]		- скопіювати репозиторій в активну папку (git clone [source] [dest])
  10.git pull			- скачать останню версію
- 
+ 11.git merge origin/vkazana_branch - виконує злиття поточної та вказаної вітки. Зміни добавляються в поточну вітку.
  Alias
  1. git config --global alias.hist 'log --pretty=format:"%h %ad | %s%d [%an]" --graph --date=short'
 
