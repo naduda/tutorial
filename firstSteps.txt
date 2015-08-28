@@ -20,3 +20,7 @@
  1. git config --global alias.hist 'log --pretty=format:"%h %ad | %s%d [%an]" --graph --date=short'
 
 Довідкова інформація на http://www.youtube.com/watch?v=eVDsZhfdvFA
+
+Maven
+CATALINA_HOME - c:/apache-tomcat
+JDK_HOME - ...
