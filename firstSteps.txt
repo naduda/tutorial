@@ -17,6 +17,7 @@
  10.git pull			- скачать останню версію
  11.git merge origin/vkazana_branch - виконує злиття поточної та вказаної вітки. Зміни добавляються в поточну вітку.
  12.(git add .) && (git commit --amend -m 'last commit') - добавити до останнього коміту (+ можливість змінити назву останнього коміту)
+ 13. git branch -d the_local_branch (git push origin --delete the_remote_branch)
  
  Видалити 2 останні коміти
  git reset --hard HEAD~2
